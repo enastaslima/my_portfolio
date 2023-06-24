@@ -11,6 +11,8 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #272829;
+  
+  
 }
 
 a {
@@ -70,14 +72,14 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 9997;
   transition: all 0.5s;
   padding: 0 15px;
-  background: #040b14;
+  background: #0b2344;
   overflow-y: auto;
 }
 #header .profile img {
   margin: 15px auto;
   display: block;
   width: 120px;
-  border: 8px solid #2c2f3f;
+  border: 8px solid #292c3b;
 }
 #header .profile h1 {
   font-size: 24px;
@@ -144,7 +146,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu a, .nav-menu a:focus {
   display: flex;
   align-items: center;
-  color: #9198df;
+  color: #db0aea;
   padding: 12px 15px;
   margin-bottom: 8px;
   transition: 0.3s;
@@ -153,14 +155,14 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu a i, .nav-menu a:focus i {
   font-size: 24px;
   padding-right: 8px;
-  color: #7f8beb;
+  color: #7f0388;
 }
 .nav-menu a:hover, .nav-menu .active, .nav-menu .active:focus, .nav-menu li:hover > a {
   text-decoration: none;
   color: #fff;
 }
 .nav-menu a:hover i, .nav-menu .active i, .nav-menu .active:focus i, .nav-menu li:hover > a i {
-  color: #149ddd;
+  color: #7f0388;
 }
 
 /* Mobile Navigation */
@@ -173,7 +175,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 24px;
   transition: all 0.4s;
   outline: none !important;
-  background-color: #149ddd;
+  background-color: #7f0388;
   color: #fff;
   width: 40px;
   height: 40px;
@@ -198,13 +200,14 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
+  
  
   background-size: cover;
   
 }
 #hero:before {
   content: "";
-  background: #dce8f8;
+ 
   position: absolute;
   bottom: 0;
   top: 0;
@@ -213,7 +216,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 1;
 }
 #hero .hero-container {
-  position: relative;
+
   z-index: 2;
  
   min-width: 300px;
@@ -232,7 +235,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Poppins", sans-serif;
 }
 #hero p span {
-  color: #c7056a;
+  color: #7f0388;
   padding-bottom: 4px;
   letter-spacing: 1px;
   border-bottom: 3px solid #149ddd;
@@ -268,6 +271,7 @@ section {
 
 .section-title {
   padding-bottom: 30px;
+  
 }
 .section-title h2 {
   font-size: 32px;
@@ -275,7 +279,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #173b6c;
+  color: #7f0388;
 }
 .section-title h2::after {
   content: "";
@@ -297,7 +301,7 @@ section {
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: #173b6c;
+  color: #7f0388;
 }
 .about .content ul {
   list-style: none;
@@ -352,7 +356,7 @@ section {
   width: 1px;
   height: 10px;
   transition: 0.9s;
-  background-color: #04638f;
+  background-color: #72047a;
 }
 
 /*--------------------------------------------------------------
@@ -382,7 +386,7 @@ section {
 }
 .resume .resume-item h5 {
   font-size: 16px;
-  background: #e4edf9;
+  background: #f8e2fa;
   padding: 5px 15px;
   display: inline-block;
   font-weight: 600;
@@ -428,7 +432,7 @@ section {
 }
 .contact .info i {
   font-size: 20px;
-  color: #149ddd;
+  color: #7f0388;
   float: left;
   width: 44px;
   height: 44px;
