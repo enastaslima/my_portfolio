@@ -201,8 +201,11 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   height: 100vh;
   
- 
+ /* background-image: url('/assets/img/pic.png'); */
   background-size: cover;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets/img/pic.png');
+  
+  
   
 }
 #hero:before {
@@ -214,6 +217,7 @@ h1, h2, h3, h4, h5, h6 {
   left: 0;
   right: 0;
   z-index: 1;
+  
 }
 #hero .hero-container {
 
@@ -226,16 +230,16 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 64px;
   font-weight: 700;
   line-height: 56px;
-  color: #211e1e;
+  color: #ecc5f3;
 }
 #hero p {
-  color: #161515;
+  color: #fae9e9;
   margin-bottom: 50px;
   font-size: 26px;
   font-family: "Poppins", sans-serif;
 }
 #hero p span {
-  color: #7f0388;
+  color: #ed70f6;
   padding-bottom: 4px;
   letter-spacing: 1px;
   border-bottom: 3px solid #149ddd;
@@ -287,7 +291,7 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: #149ddd;
+  background: #7f0388;
   bottom: 0;
   left: 0;
 }
@@ -318,7 +322,7 @@ section {
 .about .content ul i {
   font-size: 16px;
   margin-right: 5px;
-  color: #149ddd;
+  color: #7f0388;
   line-height: 0;
 }
 .about .content p:last-child {
@@ -392,6 +396,7 @@ section {
   font-weight: 600;
   margin-bottom: 10px;
 }
+
 .resume .resume-item ul {
   padding-left: 20px;
 }
@@ -426,17 +431,17 @@ section {
 }
 .contact .info {
   padding: 30px;
-   background: #ecf5f9;
+   background: #f6d9f6;
   width: 100%;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
 }
 .contact .info i {
   font-size: 20px;
-  color: #7f0388;
+  color: #572557;
   float: left;
   width: 44px;
   height: 44px;
-  background: #ecf5f9;
+  background: #f6d9f6;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -481,13 +486,13 @@ section {
   color: #fff;
 }
 .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
-  background: #149ddd;
+  background: #6d93a4;
   color: #fff;
 }
 .contact .php-email-form {
   width: 100%;
   padding: 30px;
-  background: #ecf5f9;
+  background: #f6d9f6;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
 }
 .contact .php-email-form .form-group {
